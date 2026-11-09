@@ -132,6 +132,11 @@ IntelBTUnified 把每条补丁写成一对“针/补”常量。实测（用**�
 - 已下载 **IntelBTUnified** 原版 kext（`IntelBTUnified.kext`，来自其 Releases）
 - **不要**同时加载旧的三个 kext（IntelBluetoothFirmware、IntelBTPatcher、BlueToolFixup），否则补丁会打两遍
 
+### 懒人版：直接用预编译 kext
+
+到 [Releases](https://github.com/o2606063-cyber/intelbt-tahoe-fix/releases) 下载 `IntelBTUnified-fixed-macOS26.zip`，解压得到 `IntelBTUnified.kext`，
+sha256 应为 `6d9e18eb929578c90014f26f745c294db16ca05acd4f64d14cef918e7fc90ab6`，然后直接跳到第 2 步。
+
 ### 步骤
 
 1. **生成修复版 kext**
